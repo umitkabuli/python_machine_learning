@@ -92,7 +92,7 @@ def plot_decision_regions(X, y, classifier, resolution=0.02):
 
 
 
-df=pd.read_csv('/home/programmer/aiexam/iris.data')
+df=pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data')
 y=df.iloc[0:100,4].values
 y=np.where(y == 'Iris-setosa',-1, 1)
 X=df.iloc[0:100,[0,2]].values
