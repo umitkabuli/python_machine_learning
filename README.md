@@ -5,6 +5,6 @@ scikit-learn, and TensorFlow
 Sebastian Raschka
 Vahid Mirjalili
 
-This reository inluced codes in the book
+This repository inluced codes in the book
 
 
